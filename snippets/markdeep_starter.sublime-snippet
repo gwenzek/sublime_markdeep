@@ -1,0 +1,25 @@
+<snippet><content>
+&lt;meta charset="utf-8">
+
+                            **${1:Title}**
+
+${2:Welcome to Markdeep. It's the simple way to write plain text with
+_style_. From http://casual-effects.com/markdeep.}
+
+# ${3:Section}
+
+## ${4:Subsection}
+
+${5:Content}
+
+&lt;!-- Markdeep footer -->
+    &lt;style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}&lt;/style>
+    &lt;script src="markdeep.min.js">&lt;/script>
+    &lt;script src="https://casual-effects.com/markdeep/latest/markdeep.min.js">&lt;/script>
+    &lt;script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")&lt;/script>
+</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>markdeep</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.markdeep</scope>
+</snippet>
