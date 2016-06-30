@@ -26,6 +26,19 @@ I personally use the second option for editing files, but if I share them with o
 Once your file is saved to the disk, you can use `File: Open in browser` to see you Markdeep in browser.
 To refresh your browser as soons as you modified your file, I recommend the Firefox [Auto Reload plugin](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/).
 
+# Differences with Markdown
+
+## Code blocks
+Code blocks starts and ends with `~~~`. You can use the `~~` snippet to create a code block.
+You can add a language to your code block, allowing both Sublime and Markdeep to provide better syntax coloration for it:
+
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ python
+def hello():
+    print 'hello world'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 # Note to developers
 
 Feature requests and feedback are welcomed.
