@@ -16,12 +16,8 @@ open a file, change the syntax to Markdeep, type `markdeep` press `TAB`.
 You have inserted a snippet containing a simple Markdeep document.
 Markdeep supports most of the syntax of Markdown, so it's esay to start using it !
 
-There is two ways of naming your Markdeep files.
-
-- `*.md.html` will be open in the default browser by the system, but as `html` by Sublime.
-- `*.md-html` will be open as Markdeep by Sublime, but you'll have to configure your system to open it in a web browser.
-
-I personally use the second option for editing files, but if I share them with others I rename them in `md.html`.
+Markdeep files are usually named `*.md.html` so that they will be open in the default browser by the system.
+The problem is that Sublime will open them as HTML forcing you to change the syntax to Markdeep each time.
 
 Once your file is saved to the disk, you can use `File: Open in browser` to see you Markdeep in browser.
 To refresh your browser as soons as you modified your file, I recommend the Firefox [Auto Reload plugin](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/).
