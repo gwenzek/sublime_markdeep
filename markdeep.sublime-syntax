@@ -223,6 +223,26 @@ contexts:
               scope: punctuation.definition.raw.markdeep
               pop: true
 
+        - match: (?i:C#|cs)\s*$
+          scope: comment.other.language
+          push:
+            - meta_content_scope: markup.raw.block.markdeep
+            - include: "scope:source.cs"
+          with_prototype:
+            - match: '(?=(~{4,}|`{4,}))'
+              scope: punctuation.definition.raw.markdeep
+              pop: true
+
+        - match: (?i:java|j)\s*$
+          scope: comment.other.language
+          push:
+            - meta_content_scope: markup.raw.block.markdeep
+            - include: "scope:source.java"
+          with_prototype:
+            - match: '(?=(~{4,}|`{4,}))'
+              scope: punctuation.definition.raw.markdeep
+              pop: true
+
         - match: $
           set:
             - meta_content_scope: markup.raw.block.markdeep
