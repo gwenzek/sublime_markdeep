@@ -8,9 +8,7 @@
 # should be rewritten to avoid those.
 
 name: Markdeep
-file_extensions:
-  - .md.html
-  - .md-html
+file_extensions: .md.html
 
 scope: text.html.markdeep
 

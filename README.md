@@ -18,6 +18,7 @@ Markdeep supports most of the syntax of Markdown, so it's esay to start using it
 
 Markdeep files are usually named `*.md.html` so that they will be open in the default browser by the system.
 The problem is that Sublime will open them as HTML forcing you to change the syntax to Markdeep each time.
+This plugin set the syntax to Markdeep whenever you open a file called `*.md.html`.
 
 Once your file is saved to the disk, you can use `File: Open in browser` to see you Markdeep in browser.
 To refresh your browser as soons as you modified your file, I recommend the Firefox [Auto Reload plugin](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/).
