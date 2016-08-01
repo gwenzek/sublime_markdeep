@@ -1,0 +1,7 @@
+[
+  {
+    "id": "markdeep_help",
+    "caption": "Markdeep: Open documentation",
+    "command": "markdeep_open_documentation",
+  }
+]

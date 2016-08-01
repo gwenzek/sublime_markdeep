@@ -1,0 +1,10 @@
+[
+    // Contextual help
+    {
+        "keys": ["f1"],
+        "command": "markdeep_open_documentation",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "text.markdeep" }
+        ]
+    },
+]
