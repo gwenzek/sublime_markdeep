@@ -332,7 +332,7 @@ contexts:
     - match: '\\[-`*_#+.!(){}\[\]\\>]'
       scope: constant.character.escape.markdown
   heading:
-    - match: '\G(#{1,6})(?!#)\s*(?=\S)'
+    - match: '\G(#{1,6})(?!#)\s+(?=\S)'
       captures:
         1: punctuation.definition.heading.markdown
       push:
