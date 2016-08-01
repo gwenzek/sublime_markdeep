@@ -29,12 +29,10 @@ To refresh your browser as soons as you modified your file, I recommend the Fire
 Code blocks starts and ends with `~~~`. You can use the `~~` snippet to create a code block.
 You can add a language to your code block, allowing both Sublime and Markdeep to provide better syntax coloration for it:
 
-```
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ python
-def hello():
-    print 'hello world'
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-```
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ python
+    def hello():
+        print 'hello world'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Note to developers
 
