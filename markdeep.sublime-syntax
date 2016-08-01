@@ -195,7 +195,7 @@ contexts:
       scope: punctuation.definition.raw.markdeep
       push:
         - match: (?i:py(thon)?)\s*$
-          scope: comment.other.language
+          scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep source.python
             - include: "scope:source.python"
@@ -205,7 +205,7 @@ contexts:
               pop: true
 
         - match: (?i:javascript|js)\s*$
-          scope: comment.other.language
+          scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.js"
@@ -215,7 +215,7 @@ contexts:
               pop: true
 
         - match: (?i:Scala)\s*$
-          scope: comment.other.language
+          scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.scala"
@@ -225,7 +225,7 @@ contexts:
               pop: true
 
         - match: (?i:C#|cs)\s*$
-          scope: comment.other.language
+          scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.cs"
@@ -235,7 +235,7 @@ contexts:
               pop: true
 
         - match: (?i:java|j)\s*$
-          scope: comment.other.language
+          scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.java"
