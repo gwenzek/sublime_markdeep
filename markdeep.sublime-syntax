@@ -224,7 +224,7 @@ contexts:
               scope: punctuation.definition.raw.markdeep
               pop: true
 
-        - match: (?i:C#|cs)\s*$
+        - match: (?i:cs(harp)?)\s*$
           scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep
@@ -234,7 +234,7 @@ contexts:
               scope: punctuation.definition.raw.markdeep
               pop: true
 
-        - match: (?i:java|j)\s*$
+        - match: (?i:java)\s*$
           scope: storage.type.language.markdeep
           push:
             - meta_content_scope: markup.raw.block.markdeep
