@@ -191,7 +191,7 @@ contexts:
             - include: inline
 
   block_raw:
-    - match: '^\s*(~{4,}|`{4,})\s*'
+    - match: '^\s*(~{3,}|`{3,})\s*'
       scope: punctuation.definition.raw.markdeep
       push:
         - match: (?i:py(thon)?)\s*$
@@ -200,7 +200,7 @@ contexts:
             - meta_content_scope: markup.raw.block.markdeep source.python
             - include: "scope:source.python"
           with_prototype:
-            - match: '(?=(~{4,}|`{4,}))'
+            - match: '(?=(~{3,}|`{3,}))'
               scope: punctuation.definition.raw.markdeep
               pop: true
 
@@ -210,7 +210,7 @@ contexts:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.js"
           with_prototype:
-            - match: '(?=(~{4,}|`{4,}))'
+            - match: '(?=(~{3,}|`{3,}))'
               scope: punctuation.definition.raw.markdeep
               pop: true
 
@@ -220,7 +220,7 @@ contexts:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.scala"
           with_prototype:
-            - match: '(?=(~{4,}|`{4,}))'
+            - match: '(?=(~{3,}|`{3,}))'
               scope: punctuation.definition.raw.markdeep
               pop: true
 
@@ -230,7 +230,7 @@ contexts:
             - meta_content_scope: markup.raw.block.markdeep
             - include: "scope:source.cs"
           with_prototype:
-            - match: '(?=(~{4,}|`{4,}))'
+            - match: '(?=(~{3,}|`{3,}))'
               scope: punctuation.definition.raw.markdeep
               pop: true
 
@@ -247,11 +247,11 @@ contexts:
         - match: $
           set:
             - meta_content_scope: markup.raw.block.markdeep
-            - match: '(~{4,}|`{4,})'
+            - match: '(~{3,}|`{3,})'
               scope: punctuation.definition.raw.markdeep
               pop: true
 
-        - match: '(~{4,}|`{4,})'
+        - match: '(~{3,}|`{3,})'
           scope: punctuation.definition.raw.markdeep
           pop: true
 
