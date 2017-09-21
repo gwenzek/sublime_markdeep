@@ -14,11 +14,7 @@ More information are available on the [Markdeep site](https://casual-effects.com
 Once this plugin has been installed in Sublime Text,
 open a file, change the syntax to Markdeep, type `markdeep` press `TAB`.
 You have inserted a snippet containing a simple Markdeep document.
-Markdeep supports most of the syntax of Markdown, so it's esay to start using it !
-
-Markdeep files are usually named `*.md.html` so that they will be open in the default browser by the system.
-The problem is that Sublime will open them as HTML forcing you to change the syntax to Markdeep each time.
-This plugin set the syntax to Markdeep whenever you open a file called `*.md.html`.
+Markdeep supports most of the syntax of Markdown, so it's easy to start using it !
 
 Once your file is saved to the disk, you can use `File: Open in browser` to see you Markdeep in browser.
 To refresh your browser as soons as you modified your file, I recommend the Firefox [Auto Reload plugin](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/).
@@ -26,13 +22,13 @@ To refresh your browser as soons as you modified your file, I recommend the Fire
 # Differences with Markdown
 
 ## Code blocks
-Code blocks starts and ends with `~~~`. You can use the `~~` snippet to create a code block.
+Code blocks starts and ends with `` ``` ``. You can use the ``` `` ``` snippet to create a code block.
 You can add a language to your code block, allowing both Sublime and Markdeep to provide better syntax coloration for it:
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ python
+    ``````````````````````````````````` python
     def hello():
         print 'hello world'
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ```````````````````````````````````
 
 # Note to developers
 
